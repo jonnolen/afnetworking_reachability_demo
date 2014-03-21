@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="5053" systemVersion="13C64" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="vXZ-lx-hvc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="DTViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
+                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="260" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="h8F-RB-nB0">
+                                <rect key="frame" x="258" y="66" width="42" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Shared Manager" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RJA-IN-9f5">
+                                <rect key="frame" x="20" y="66" width="230" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="260" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KOx-cN-WqC">
+                                <rect key="frame" x="258" y="95" width="42" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Domain Manager" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ayP-4d-ElO">
+                                <rect key="frame" x="20" y="95" width="230" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="260" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XAd-mg-NqD">
+                                <rect key="frame" x="258" y="124" width="42" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Address Manager" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yaG-8e-Lcc">
+                                <rect key="frame" x="20" y="124" width="230" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="XAd-mg-NqD" firstAttribute="top" secondItem="KOx-cN-WqC" secondAttribute="bottom" constant="8" id="0gR-9M-0aF"/>
+                            <constraint firstItem="yaG-8e-Lcc" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" constant="20" id="1E5-Il-wGF"/>
+                            <constraint firstItem="ayP-4d-ElO" firstAttribute="top" secondItem="RJA-IN-9f5" secondAttribute="bottom" constant="8" id="55R-Ij-hL7"/>
+                            <constraint firstItem="KOx-cN-WqC" firstAttribute="leading" secondItem="ayP-4d-ElO" secondAttribute="trailing" constant="8" id="5lZ-Xv-JfP"/>
+                            <constraint firstAttribute="trailing" secondItem="h8F-RB-nB0" secondAttribute="trailing" constant="20" id="A66-Ry-ZE0"/>
+                            <constraint firstItem="RJA-IN-9f5" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="46" id="FIi-a0-OeG"/>
+                            <constraint firstItem="ayP-4d-ElO" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" constant="20" id="FMf-NL-Ugn"/>
+                            <constraint firstItem="XAd-mg-NqD" firstAttribute="leading" secondItem="yaG-8e-Lcc" secondAttribute="trailing" constant="8" id="IAi-d2-gxE"/>
+                            <constraint firstItem="KOx-cN-WqC" firstAttribute="top" secondItem="h8F-RB-nB0" secondAttribute="bottom" constant="8" id="IS2-Ff-rMF"/>
+                            <constraint firstItem="XAd-mg-NqD" firstAttribute="leading" secondItem="yaG-8e-Lcc" secondAttribute="trailing" constant="8" id="JrK-2o-kOD"/>
+                            <constraint firstItem="yaG-8e-Lcc" firstAttribute="top" secondItem="ayP-4d-ElO" secondAttribute="bottom" constant="8" id="MoP-DI-UQf"/>
+                            <constraint firstAttribute="trailing" secondItem="KOx-cN-WqC" secondAttribute="trailing" constant="20" id="fhR-uE-YNj"/>
+                            <constraint firstItem="h8F-RB-nB0" firstAttribute="leading" secondItem="RJA-IN-9f5" secondAttribute="trailing" constant="8" id="i1K-C2-T76"/>
+                            <constraint firstItem="KOx-cN-WqC" firstAttribute="leading" secondItem="ayP-4d-ElO" secondAttribute="trailing" constant="8" id="nzl-LR-46e"/>
+                            <constraint firstItem="h8F-RB-nB0" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="46" id="pvu-6L-sWA"/>
+                            <constraint firstItem="RJA-IN-9f5" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" constant="20" id="uGi-Dd-crr"/>
+                            <constraint firstAttribute="trailing" secondItem="XAd-mg-NqD" secondAttribute="trailing" constant="20" id="y22-06-Fnd"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="addressManagerLabel" destination="XAd-mg-NqD" id="JnM-Ni-wl7"/>
+                        <outlet property="domainManagerLabel" destination="KOx-cN-WqC" id="Ewk-Mh-fY9"/>
+                        <outlet property="sharedManagerLabel" destination="h8F-RB-nB0" id="V5R-lS-Uh6"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>
